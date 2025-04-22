@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Convertidor CLP a USD y ARS</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -15,9 +16,11 @@
         background-position: center;
         background-repeat: no-repeat;
         font-family: "DM Sans", sans-serif;
+        height: 100dvh !important;
       }
       .glass {
         backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px); /* Safari */
         background: rgba(255, 255, 255, 0.15);
         box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2), -8px -8px 20px rgba(255, 255, 255, 0.1);
         border-radius: 1.5rem;
