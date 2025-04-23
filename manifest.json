@@ -3,8 +3,8 @@
     "short_name": "CLP App",
     "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#157596",
+    "background_color": "#383f52",
+    "theme_color": "#383f52",
     "orientation": "portrait",
     "icons": [
       {
